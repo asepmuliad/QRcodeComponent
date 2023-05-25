@@ -28,6 +28,7 @@ export default{
 }
 //https://api.adviceslip.com/advice
 </script>
+
 <template>
     <div class="card flex justify-center items-center h-screen bg-bgfull" id="card"> 
          <div class="flex flex-col items-center bg-card max-w-sm rounded-lg shadow-lg shadow-cardbut relative" v-for="isi in cardData">
